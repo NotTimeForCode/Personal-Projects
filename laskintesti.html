@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="chucknorris">
+
+    <p id="testi"></p>
+    <button onclick="lisaaRuudulle('lisaa')">Lisaa</button>
+    
+    <script> 
+
+function lisaaRuudulle(merkki) {
+    let inputF = document.getElementById('testi');
+    inputF.innerHTML += merkki;
+    console.log('test');
+}
+
+    </script>
+</body>
+</html>

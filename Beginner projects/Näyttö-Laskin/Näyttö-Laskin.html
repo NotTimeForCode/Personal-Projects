@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Näyttö-Laskin.css">
+</head>
+<body onload="nullification()">
+
+<div class="calculator">
+
+    <p id="inputField"></p>
+    <div class="buttons">
+    <button onclick="nullification()" class="clearBtn">C</button>
+    <button onclick="lisaaRuudulle('/')">/</button>
+    <button onclick="backspace()">Del</button>
+    <br>
+    <button onclick="lisaaRuudulle('7')">7</button>
+    <button onclick="lisaaRuudulle('8')">8</button>
+    <button onclick="lisaaRuudulle('9')">9</button>
+    <button onclick="lisaaRuudulle('*')">*</button>
+    <br>
+    <button onclick="lisaaRuudulle('4')">4</button>
+    <button onclick="lisaaRuudulle('5')">5</button>
+    <button onclick="lisaaRuudulle('6')">6</button>
+    <button onclick="lisaaRuudulle('-')">-</button>
+    <br>
+    <button onclick="lisaaRuudulle('1')">1</button>
+    <button onclick="lisaaRuudulle('2')">2</button>
+    <button onclick="lisaaRuudulle('3')">3</button>
+    <button onclick="lisaaRuudulle('+')">+</button>
+    <br>
+    <button onclick="lisaaRuudulle('00')">00</button>
+    <button onclick="lisaaRuudulle('0')">0</button>
+    <button onclick="lisaaRuudulle('.')">.</button>
+    <button onclick="calculation()">=</button>
+    </div>
+</div>
+
+<script src="Näyttö-Laskin.js"></script>
+</body>
+</html>

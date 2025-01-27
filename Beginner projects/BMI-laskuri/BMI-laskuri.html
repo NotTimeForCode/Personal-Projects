@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <title>BMI-laskuri</title>
+    <link rel="stylesheet" type="text/css" href="../BMI-laskuri/BMI-laskuri.css">
+        <script src="../BMI-laskuri/BMI-laskuri.js" defer></script>
+</head> 
+<body>
+    <h1>BMI-laskuri</h1>
+    <div>
+        <label for="paino1">Paino (kg):</label><br>
+        <input type="number" id="paino1" max="999" min="1"><br>
+        <label for="pituus1">Pituus (cm):</label><br>
+        <input type="number" id="pituus1" max="999" min="1"><br><br>
+        <input type="submit" onclick="laskeBMI()" value="Laske">
+        <div id="outputField"></div>
+    </div>
+
+</body>
+</html>

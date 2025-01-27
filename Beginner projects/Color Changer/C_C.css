@@ -1,0 +1,24 @@
+button.b1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+button.b1:hover {
+    border: 3px solid grey;
+}
+
+#disptext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50.3%;
+    left: 30%;
+    font-size: 25px;
+}
