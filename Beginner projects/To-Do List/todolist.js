@@ -12,7 +12,7 @@ function addTask() {
             <div id="row">
             <button onclick="button()" id="task-container">
             <p id="userInput">${userInput}</p>
-            <button onclick="deleteTask(${increment})" id="deleteBtn">Poista</button>
+            <button onclick="deleteTask(this)" id="deleteBtn">Poista</button>
             </button>
             </div>
             </div>`;
@@ -27,8 +27,9 @@ function idIncrement() {
     return increment;
 }
 
-function deleteTask(idNumber) {
-    document.getElementById(idNumber).remove();
+function deleteTask(buttonElement) {
+    buttonElement.closest('div[id]').remove();
+   // document.getElementById(idNumber).remove();
 
 }
 
