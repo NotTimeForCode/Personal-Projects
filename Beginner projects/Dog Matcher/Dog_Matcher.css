@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#header {
+    padding: 15px;
+}
+
+.main-container {
+    height: 98vh;
+    width: 60vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+}
