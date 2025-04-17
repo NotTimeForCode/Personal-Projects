@@ -1,17 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
-    
 }
 
-#header {
-    padding: 15px;
+.header {
+    padding: 0px 15px 15px 15px;
+    justify-content: center;
+    display: flex;
 }
 
 .main-container {
     height: 98vh;
-    width: 60vh;
+    width: 80vh;
     background-color: darkgray;
     display: flex;
     justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
 }
+
+.box-box-container {
+    width: 486px;
+}
+
+.top-box-container {
+    width: 486px;
+    background-color: rgb(105, 105, 105);
+    border: solid 3px rgb(61, 61, 61);
+    padding: 35px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    width: 486px;
+    background-color: rgb(105, 105, 105);
+    border: solid 3px rgb(61, 61, 61);
+    padding: 35px;
+}
+
+.width-container {
+    width: 410px;
+}
+
+#search-container {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 410px;
+    height: 20px;
+}
+
+#search-bar {
+    width: 70%;
+    height: 30px;
+}
+
+#search-btn {
+    width: 30%;
+    height: 30px;
+    /* padding: 0; */
+}
+
+.matcher {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr);   /* 2 rows */
+    gap: 10px; /* Space between grid items */
+    /* width: 100%; Adjust as needed */
+    height: auto; /* Adjust as needed */
+    width: 410px;
+}
+
+.match-container {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    padding: 9px;
+    width: 200px;
+}
+
+option {
+    padding: 15px;
+}
+
