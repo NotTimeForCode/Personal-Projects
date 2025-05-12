@@ -16,5 +16,7 @@ h2 {
 .container {
     position: relative;
     top: 30px;
-    background-color: lightblue;
+    background-color: rgb(35, 200, 255);
+    padding: 30px;
+    border-radius: 14px;
 }
