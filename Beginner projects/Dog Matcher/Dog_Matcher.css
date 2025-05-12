@@ -14,7 +14,7 @@ body {
 }
 
 .main-container {
-    height: 98vh;
+    height: 100%;
     width: 80vh;
     background-color: darkgray;
     display: flex;
@@ -24,9 +24,7 @@ body {
     flex-direction: column;
 }
 
-.box-box-container {
-    width: 486px;
-}
+
 
 .top-box-container {
     width: 486px;
@@ -34,14 +32,42 @@ body {
     border: solid 3px rgb(61, 61, 61);
     padding: 35px;
     position: relative;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .box-container {
-    width: 486px;
+    width: 700px;
     background-color: rgb(105, 105, 105);
     border: solid 3px rgb(61, 61, 61);
     padding: 35px;
+    margin-bottom: 20px;
+    position: relative;
+    align-items: center;
+}
+
+#dog-display {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.dogElement {
+    /* align-items: baseline; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border: solid 2px black;
+    margin-bottom: 2px;
+}
+
+.dogElement p {
+    align-items: center;
+    position: relative;
+    top: 50px;
 }
 
 .width-container {
@@ -58,14 +84,8 @@ body {
 }
 
 #search-bar {
-    width: 70%;
+    width: 100%;
     height: 30px;
-}
-
-#search-btn {
-    width: 30%;
-    height: 30px;
-    /* padding: 0; */
 }
 
 .matcher {
