@@ -8,17 +8,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fuck my ass</title>
+    <title>Dog breed matcher</title>
     <link rel="stylesheet" href="Dog_Matcher.css">
     <script src="Dog_Matcher.js" defer></script>
 </head>
 <body>
     <div class="main-container">
         <div class="top-box-container">
-            <h1 class="header">Dog Matcher</h1>
+            <h1 class="header">Dog Breed Matcher</h1>
             <div class="width-container">
                 <div id="search-container">
-                    <input type="text" id="search-bar" onkeyup="searchFunction()" placeholder="Search for a dog breed...">
+                    <input type="text" id="search_bar" onkeyup="searchFunction()" placeholder="Search for a dog breed...">
                 </div>
                 <div id="matcher" class="matcher">
                     <div class="size-container match-container">
