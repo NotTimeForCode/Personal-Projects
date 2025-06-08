@@ -33,10 +33,16 @@ window.onclick = function(event) {
 
 function addTask() {
 	let input = document.getElementById('input').value;
-	let task_template = "<div class='task_container'>" + input + "<button id='edit_button'></button><button id='delete_button'></button></div>";
-	document.getElementById('body_container').innerHTML += task_template;
-	document.getElementById('input').innerHTML = "";
-	modal.style.display = "none";
+	if (input) {
+		let task_template = "<div class='task_container'><p class='task_text'>" + input + "</p><div class='btn-container'><button class='edit_button action_button' onclick='editTask()'><img src='icons/pen_white.png'></button> <button class='delete_button action_button' onclick='deleteTask.call(this)'><img src='icons/trashcan_white_2.png'></button></div> </div>";
+		document.getElementById('body_container').innerHTML += task_template;
+		document.getElementById('input').value = "";
+		modal.style.display = "none";
+	}
+}
+
+function deleteTask() {
+	this.closest('.task_container').remove();
 }
 
 
