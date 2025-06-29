@@ -19,9 +19,9 @@
   		<!-- Modal content -->
 		<div class="modal-content">
 			<div class="main-modal-content">
-				<span class="close">&times;</span>
+				<span id="close" class="close">&times;</span>
 				<h2>Add a task</h2>
-				<input type="text" id="input" placeholder=" Add task" minlength="1" maxlength="50">
+				<input type="text" id="input" class="input" placeholder=" Add task" minlength="1" maxlength="50">
 				<button id="input_button" class="input_button">Add</button>
 			</div>
   		</div>
@@ -29,17 +29,16 @@
 	</div>
 	<div id="edit_modal" class="modal" style="display: none;">
 
-  		<!-- Modal content -->
+  		<!-- Modal for task editing (as much as this seems unintentional, it's not) -->
 		<div class="modal-content">
 			<div class="main-modal-content">
-				<span class="close">&times;</span>
-				<h2>Add a task</h2>
-				<input type="text" id="input" placeholder=" Add task" minlength="1" maxlength="50">
-				<button id="" class="input_button">Add</button>
-				<button id="" class="input_button"></button>
+				<span id="close2" class="close">&times;</span>
+				<h2>Modify task</h2>
+				<input type="text" id="modified_input" class="input" placeholder="Modify task" minlength="1" maxlength="50">
+				<button id="save_edit" class="input_button">Save</button>
+				<button id="cancel_edit" class="input_button">Cancel</button>
 			</div>
   		</div>
-
 	</div>
 </body>
 </html>

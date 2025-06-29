@@ -25,11 +25,9 @@ body {
 .task_container {
 	background-color: black;
 	width: 450px;
-	min-height: 50px;
-	max-height: fit-content;
+	height: 50px;
 	border: 3px solid #1F51FF;
 	display: flex;
-	position: relative;
 	align-items: center;
 	margin-top: 30px;
 }
@@ -47,7 +45,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	padding-bottom: 5px;
-	z-index: 1;
+	z-index: 11;
 }
 
 #task_button:hover {
@@ -56,7 +54,7 @@ body {
 
 /* The Modal (background) */
 .modal {
-	display: block; /* None by default */
+	display: block; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */
 	padding-top: 100px; /* Location of the box */
@@ -94,8 +92,7 @@ body {
 	color: #aaaaaa;
 	font-size: 28px;
 	font-weight: bold;
-	right: 0;
-	top: 0;
+	right: 35%;
 	z-index: 10;
 	width: 30px;
 	height: 30px;
@@ -113,7 +110,7 @@ body {
 	border: 3px solid #1F51FF;
 }
 
-.input {
+#input {
 	background-color: #121212;
 	border: 2px solid #073FFF;
 	height: 30px;
@@ -121,47 +118,18 @@ body {
 	margin-bottom: 20px;
 }
 
-.input_button {
+#input_button {
 	background-color: black;
 	border: 3px solid #1F51FF;
 	width: 90px;
 	height: 40px;
 }
 
-.input_button:hover {
+#input_button:hover {
 	border: 4px solid #1F51FF;
 }
 
-.btn-container {
-	position: absolute;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: right;
-	width: 100%;
-}
 
-.action_button {
-	display: flex;
-	width: 40px;
-	height: 30px;
-	border: 3px solid #3f5fcf;
-	background-color: black;
-	margin-right: 10px;
-}
 
-.action_button:hover {
-	border-width: 2px;
-}
 
-.task_text {
-	display: flex;
-	margin-left: 10px;
-	width: 333px;
-	overflow-wrap: break-word;
-	z-index: 2;
-}
-.task_text:active,
-.task_text:hover {
-	color: #7b97fc;
-}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Furry Quiz</title>
+<link rel="stylesheet" href="furry_quiz.css">
+<script src="furry_quiz.js"></script>
+</head>
+<body>
+<h1>Furry Quiz</h1>
+
+<div class="question">
+	<h3 style="margin-top:0px;">1. Do you like animals?</h3>
+	<div class="range_container">
+		<div class="nums">
+			<p class="first_p">1</p>
+			<p>2</p>
+			<p>3</p>
+			<p>4</p>
+			<p>5</p>
+			<p>6</p>
+			<p>7</p>
+			<p>8</p>
+			<p>9</p>
+			<p class="last_p">10</p>
+		</div>
+
+		<input class="range_meter"  id="slider_1" type="range" min="1" max="10" value="5">
+		<div class="way_container">
+			<p class="disagree"> < Disagree </p>
+			<p class="agree"> Agree > </p>
+		</div>
+	</div>
+</div>
+
+<div class="question">
+	<h3 style="margin-top:0px;">2. Do you play VrChat?</h3>
+	<div class="range_container">
+		<div class="nums">
+			<p class="first_p">1</p>
+			<p>2</p>
+			<p>3</p>
+			<p>4</p>
+			<p>5</p>
+			<p>6</p>
+			<p>7</p>
+			<p>8</p>
+			<p>9</p>
+			<p class="last_p">10</p>
+		</div>
+
+		<input class="range_meter"  id="slider_2" type="range" min="1" max="10" value="5">
+		<div class="way_container">
+			<p class="disagree"> < Disagree </p>
+			<p class="agree"> Agree > </p>
+		</div>
+	</div>
+</div>
+
+<div class="question">
+	<h3 style="margin-top:0px;">3. Are you a furry?</h3>
+	<div class="range_container">
+		<div class="nums">
+			<p class="first_p">1</p>
+			<p>2</p>
+			<p>3</p>
+			<p>4</p>
+			<p>5</p>
+			<p>6</p>
+			<p>7</p>
+			<p>8</p>
+			<p>9</p>
+			<p class="last_p">10</p>
+		</div>
+
+		<input class="range_meter"  id="slider_3" type="range" min="1" max="10" value="5">
+		<div class="way_container">
+			<p class="disagree"> < Disagree </p>
+			<p class="agree"> Agree > </p>
+		</div>
+	</div>
+</div>
+
+<div id="results">
+	<div id="result_board">
+		<h3 id="result_1"></h3>
+		<h3 id="result_2"></h3>
+	</div>
+	<button id="result_button" onclick="getInput()">See results</button>
+</div>
+
+</body>
+</html>

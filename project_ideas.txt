@@ -1,0 +1,95 @@
+A few ideas for javascript projects:
+
+Beginner difficulty:
+Calculator:
+    -Does basic arithmetic
+    -Display calculation and sum in an element
+    -Do actions with buttons instead of 
+-
+    Unstarted
+.
+
+To-do List:
+    -Can add, edit and delete tasks.
+    -Statistics board to show how many tasks exist and how many are
+     finished.
+-   
+    Started, on pause due to no access to up to date version
+.
+
+Weather App:
+    -Unsure of the requirements for the application.
+-
+    Unstarted, specs have to be determined.
+.
+
+Random Quote Generator:
+    -Fetches and displays different types of quotes
+-
+    Unstarted
+.
+
+Tic-Tac-Toe:
+    -Have to determine specs.
+-
+    Unstarted, specs have to be determined
+.
+
+Tip Calculator:
+    -Insert total bill and percentage, get tip.
+-
+    Unstarted
+.
+
+Digital Clock:
+    -Displays time of a specific place, thats it
+-
+    Unstarted
+.
+
+Memory Game: 
+    -Match cards
+    -Times how long the game takes
+    -Can restart the game 
+    -Maybe a scoreboard?
+-
+    Unstarted
+.
+
+Drawing App:
+    -White canvas, black pen.
+-
+    Unstarted
+.
+
+Currency Converter: 
+    -Converts currency
+    -Might have a base value that gets converted to the chosen currency
+- 
+    Unstarted
+.
+
+QR Code Generator:
+    -Insert a web link, press button, an element displays
+     the QR code. 
+    -No idea how to even begin this, but fuck it we learn.
+-
+    Unstarted
+.
+
+Intermediate difficulty:
+fuck if i know
+
+A website to search through programming concepts and how to do things (for example, how to clear text fields, how to center a div)
+Sorted in categories and searchable with search bar
+
+
+
+
+
+
+
+
+
+
+
