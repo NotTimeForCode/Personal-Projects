@@ -1,0 +1,58 @@
+* {
+	color: white;
+}
+
+body {
+	background-color: #282828;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#calc_body {
+	width: 400px;
+	height: 500px;
+	background-color: #610000;
+	border: 2px solid black;
+	border-radius: 12px;
+}
+
+.calc_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70px;
+	height: 70px;
+	background-color: #760000;
+	border: 2px solid black;
+	border-radius: 12px;
+}
+
+#calc_display {
+	width:300px;
+	height: 70px;
+	border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
