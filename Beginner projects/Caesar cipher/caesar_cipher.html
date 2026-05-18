@@ -8,12 +8,22 @@
     <script src="caesar_cipher.js" defer></script>
 </head>
 <body>
-    <h1>Caesar Cipher</h1>
-    <form>
-        <label for="encrypt_input">Enter text to be encrypted:</label>
-        <input type="text" name="encrypt_input" id="encrypt_input" placeholder="Text to encrypt">
-        <button type="button" onclick="cipher()">Submit</button>
-        <p id="output"></p>
-    </form>
+    <div id="encryptor">
+        <h1>Caesar Cipher</h1>
+        <form>
+            <label for="encrypt_input">Enter text to be encrypted:</label>
+            <input type="text" name="encrypt_input" id="encrypt_input" placeholder="Text to encrypt">
+            <button type="button" onclick="encrypt()">Submit</button>
+            <p id="encrypt_output"></p>
+        </form>
+    </div>
+    <div id="decryptor">
+        <form>
+            <label for="decrypt_input">Enter text to be decrypted:</label>
+            <input type="text" name="decrypt_input" id="decrypt_input" placeholder="Text to decrypt">
+            <button type="button" onclick="decrypt()">Submit</button>
+            <p id="decrypt_output"></p>
+        </form>
+    </div>
 </body>
 </html>
