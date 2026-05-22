@@ -12,7 +12,8 @@ function encrypt() {
     for (let i = 0; i < str.length; i++) {
         let currentLetter = str[i];
         index = alphabet.indexOf(currentLetter);
-        index++;
+        
+        index++; // add multiple forwards
         newLetter = alphabet[index];
         finished += newLetter; 
     }
@@ -27,10 +28,11 @@ function decrypt() {
     let newLetter;
     str = document.getElementById('decrypt_input').value;
     
-    for (let i = 0; i < str.length; i--) {
+    for (let i = 0; i < str.length; i++) {
         let currentLetter = str[i];
         index = alphabet.indexOf(currentLetter);
-        index--;
+        
+        index--; // add multiple backwards
         newLetter = alphabet[index];
         finished += newLetter; 
     }

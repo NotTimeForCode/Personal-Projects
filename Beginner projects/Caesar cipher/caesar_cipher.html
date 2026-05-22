@@ -13,6 +13,17 @@
         <form>
             <label for="encrypt_input">Enter text to be encrypted:</label>
             <input type="text" name="encrypt_input" id="encrypt_input" placeholder="Text to encrypt">
+            <label for="forward">Choose how many letters to forward:</label>
+                <select name="forward" id="forward">
+                  <option value="one">1</option>
+                  <option value="two">2</option>
+                  <option value="three">3</option>
+                  <option value="four">4</option>
+                  <option value="five">5</option>
+                  <option value="six">6</option>
+                  <option value="seven">7</option>
+
+                </select>
             <button type="button" onclick="encrypt()">Submit</button>
             <p id="encrypt_output"></p>
         </form>
